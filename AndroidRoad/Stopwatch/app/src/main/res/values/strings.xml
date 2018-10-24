@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="zero">0:00:00</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
+    <string name="dialog_fire_missile_title">Missile Fire Control</string>
+    <string name="dialog_fire_missile_message">Fire missiles?</string>
+    <string name="fire">Fire</string>
+    <string name="fire_result">Missile Fired!</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_result">Fire Canceled.</string>
+    <string name="intent_text">Sent via Stopwatch Intent.</string>
+</resources>
