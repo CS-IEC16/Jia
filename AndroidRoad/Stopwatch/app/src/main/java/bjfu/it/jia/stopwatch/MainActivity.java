@@ -117,7 +117,9 @@ public class MainActivity extends Activity {
         // show() written in class FireMissileDialogFragment. Two anonymous call-back functions included.
         /* FATAL ERROR: cannot pass para @StringRes int. More details see FireMissileDialogFragment.java
          * 2018.10.24 */
-        fireMissileDialogFragment.show("Missile Fire Management", "Fire Missile?",
+        /* SOLVED: add package implementation to `build.gradle`, and import. Add context as para is must.
+         * 2018.10.24 */
+        fireMissileDialogFragment.show(this, R.string.dialog_fire_missile_title, R.string.dialog_fire_missile_message,
                 new DialogInterface.OnClickListener() {
                     // Every call-back function should override onClick(DialogInterface dialog, int which) function.
                     // DialogInterface points to the dialog interacting with, which points the button selected.
