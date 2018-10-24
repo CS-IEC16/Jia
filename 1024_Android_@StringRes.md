@@ -12,7 +12,7 @@ implementation 'com.android.support:support-annotations:27.1.1'
 ```
 in `\app\gradle.build`. Build file in **app folder**!
 * To read the real values of `@StringRes int`, also add `Context context` as para in the para list.
-```java
+```java  
 public void show(Context context, @StringRes int title) {
 	String title = context.getResources().getString(title);
 	system.out.println(title);		// real value of title
