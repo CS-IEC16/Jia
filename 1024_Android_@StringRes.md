@@ -1,7 +1,7 @@
 Usage of @StringRes
 ===============================
 ### Issue - 2018.10.24 11:00
-* Error occured when passing `R.string.\*` to customized `@StringRes int para` type parameter. 
+* Error occured when passing `R.string.\*` to customized `@StringRes int para` type parameter.  
 Error Message: `Cannot find package android.support.annotation.StringRes`.
 
 
